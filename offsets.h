@@ -1,10 +1,10 @@
-#define GWorld 0xF3022D8
+#define GWorld 0x10AEC0B8
 #define VIEW_POINT 0xE49C7E0
 
 
 namespace OFFSETS
 {
-    uintptr_t UWORLD = 0xF3022D8;
+    uintptr_t UWORLD = 0x10AEC0B8;
     uintptr_t Viewpoint = 0xE49C7E0;
 
     uintptr_t Gameinstance = 0x1b8;
@@ -23,15 +23,15 @@ namespace OFFSETS
     uintptr_t AActor = 0x98;
     uintptr_t CurrentActor = 0x8;
     uintptr_t Mesh = 0x318;
-    uintptr_t Revivefromdbnotime = 0x4af8;
-    uintptr_t TeamId = 0x10D8;
-    uintptr_t ActorTeamId = 0x10C8;
+    uintptr_t Revivefromdbnotime = 0x4b68;
+    uintptr_t TeamId = 0x10e0;
+    uintptr_t ActorTeamId = 0x10e0;
 
     uintptr_t IsDBNO = 0x872;
     uintptr_t LocalActorPos = 0x128;
     uintptr_t ComponetToWorld = 0x240;
     uintptr_t BoneArray = 0x610;
-    uintptr_t Bonecache = 0x658;
+    uintptr_t Bonecache = 0x648;
     uintptr_t Velocity = 0xb8;
     uintptr_t Private = 0x308; //PawnPrivate
     uintptr_t PlayerArray = 0x2A8;
